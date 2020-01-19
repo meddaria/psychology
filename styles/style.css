@@ -48,9 +48,9 @@ button {
 }
 
 .header-container {
+    margin: auto;
     max-width: 1256px;
     height: 82px;
-    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,9 +76,9 @@ button {
 }
 
 .phone {
-    justify-content: flex-end;
     margin-left: 20px;
     margin-right: 45px;
+    justify-content: flex-end;
 }
 
 .request {
@@ -89,10 +89,10 @@ button {
 .button {
     width: 207px;
     height: 50px;
-    color: #FFF;
-    background-color: rgb(163, 163, 230);
     border: none;
     border-radius: 2px;
+    background-color: rgb(163, 163, 230);
+    color: #FFF;
 }
 
 /*################# HOME #################*/
@@ -103,13 +103,12 @@ button {
     align-items: center;
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../images/volna.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
+    background-size: cover;
 }
 
 .intro-container {
     width: 1175px;
-    max-width: 1175px;
     margin: auto;
 }
 
@@ -117,9 +116,9 @@ button {
     margin-bottom: 20px;
     font-family: 'Ibarra Real Nova', serif;
     color: #FFF;
+    text-transform: uppercase;
     font-size: 40px;
     line-height: 53px;
-    text-transform: uppercase;
 }
 
 .intro-subtitle {
@@ -132,11 +131,11 @@ button {
 .button-transparent {
     width: 210px;
     height: 55px;
-    color: #FFF;
     background: rgba(0,0,0,0);
+    color: #FFF;
+    font-size: 12px;
     border: 1px solid #FFF;
     border-radius: 2px;
-    font-size: 12px;
 }
 
 /*################# ABOUT US #################*/
@@ -167,10 +166,10 @@ button {
   
 .mobile-arrows {
     position: absolute;
-    top: 47%;
-    left: 2.5%;
     width: 95%;
     margin: auto;
+    top: 47%;
+    left: 2.5%;
     display: flex;
     justify-content: space-between;
 }
@@ -183,8 +182,8 @@ button {
 }
   
 .about {
-    width: 387px;
     margin-right: 50px;
+    width: 387px;
 }
   
 .about-table {
@@ -214,9 +213,9 @@ button {
 }
   
 .arrows {
-    display: flex;
     width: 207px;
     margin-top: 80px;
+    display: flex;
     justify-content: space-between;
 }
   
@@ -241,9 +240,9 @@ button {
 }
   
 .arrows-dot {
+    cursor: pointer;
     width: 10px;
     height: 10px;
-    cursor: pointer;
 }
   
 .arrows-dot-active {
@@ -285,12 +284,6 @@ button {
     margin: 0px 7px;
 }
 
-.line {
-	width: 33px;
-    margin-bottom: 13px;
-	border-bottom: 1.5px solid rgb(163, 163, 230);
-}
-
 .video-mobile {
     width: 100%;
 	margin-bottom: 27px;
@@ -306,28 +299,28 @@ button {
 
 .button-play {
     width: 100%;
-    margin: auto 18px;
     height: 100%;
+    margin: auto 18px;
     padding: 0;
     display: flex;
     justify-content: center;
     position: absolute;
     left: -18px;
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) );
     border: none;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) );
 }
 
 .button-play-img {
-    margin-top: -25px;
     width: 100px;
+    margin-top: -25px;
 }
 
 .about-us-video-text {
-    color: #363636;
     width: 685px;
     height: 130px;
     display: flex;
     margin: 0 auto 91px;
+    color: #363636;
     font-size: 18px;
     line-height: 37px;
     text-align: center;
@@ -348,15 +341,15 @@ button {
 }
 
 .input {
-    margin-bottom: 35px;
     width: 231px;
     height: 45px;
+    margin-bottom: 35px;
 }
 
 .input-window {
-    background-color: #E5E5E5;
     height: 23px;
     border: none;
+    background-color: #E5E5E5;
     border-bottom: 1px solid rgba(54, 54, 54, 0.3);
 }
 
@@ -371,28 +364,28 @@ label {
     color: #363636;
 }
 
-.checkbox {
+.agree {
 	position: relative;
 	padding-left: 25px;
 }
 
-.checkbox input[type=checkbox] {
+.agree input[type=agree] {
 	display:none;
 }
 
-.checkbox label:after {
+.agree label:after {
+    width: 18px;
+    height:18px;
     background-color: rgb(163, 163, 230);
 	content: '';
 	display: block;
-	height:18px;
-	width: 18px;
     border-radius: 1px;
 	position: absolute;
 	top: 2px;
 	left: 0;
 }
 
-.checkbox input[type=checkbox]:checked + label:after {
+.agree input[type=agree]:checked + label:after {
     content:'\2714';
     line-height: 18px;
     color: #FFF;
@@ -403,8 +396,8 @@ label {
 /*################# SERVICES #################*/
 
 .services {
-    color: #363636;
     margin-top: 150px;
+    color: #363636;
 }
   
 .services-container {
@@ -417,8 +410,8 @@ label {
 }
   
 .services-logo {
-    text-align: center;
     margin-bottom: 30px;
+    text-align: center;
 }
   
 .services-margin {
@@ -456,16 +449,16 @@ label {
 }
   
 .services-subheader {
+    margin:0 68px 13px 34px;
     font-family: 'Ibarra Real Nova', serif;
     font-size: 22px;
     line-height: 25px;
-    margin:0 68px 13px 34px;
 }
   
 .services-list {
-    color: #959595;
     padding-inline-start: 34px;
     padding-inline-end: 34px;
+    color: #959595;
     font-size: 15.5px;
     line-height: 27px;
 }
@@ -490,8 +483,8 @@ label {
     display: flex;
     justify-content: space-between;
     background-image: url(../images/steps.png);
-    background-size: 970px;
     background-repeat: no-repeat;
+    background-size: 970px;
 }
   
 .steps {
@@ -515,10 +508,10 @@ label {
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
     margin: 0px 17px 0px 35%;
     font-family: 'Ibarra Real Nova', serif;
-    font-size: 18px;
-    line-height: 42px;
     text-align: center;
     align-content: center;
+    font-size: 18px;
+    line-height: 42px;
 }
   
 .steps-text {
@@ -528,10 +521,10 @@ label {
 }
   
 .tutorial-call {
-    background-color: #3f3f3f;
     width: 509px;
     height: 600px;
     padding-bottom: 27px;
+    background-color: #3f3f3f;
 }
   
 .tutorial-input {
@@ -539,10 +532,10 @@ label {
 }
   
 .call-header {
-    display: block;
-    margin: 28px auto 39px;
     width: 297px;
     height: 47px;
+    display: block;
+    margin: 28px auto 39px;
     font-size: 18px;
     line-height: 26px;
     text-align: center;
@@ -559,9 +552,9 @@ input:focus {
 }
 
 .input-window-call {
+    width: 408px;
     background-color: #3f3f3f;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-    width: 408px;
     font-size: 13.5px;
 }
   
@@ -579,29 +572,29 @@ input:focus {
     margin-bottom: 40px;
 }
   
-.call-checkbox {
+.call-agree {
     color: #FFF;
 }
   
 .call-button {
+    margin: 0 45px 25px 0;
     display: flex;
     justify-content: flex-end;
-    margin: 0 45px 25px 0;
 }
   
 .discount {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
 }
   
 .discount-img {
+    width: 72px;
+    height: 72px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 72px;
-    height: 72px;
     border-radius: 50%;
 }
   
@@ -627,9 +620,9 @@ input:focus {
   
 .location-container {
     max-width: 1170px;
-    display: flex;
     margin: auto;
     margin-bottom: 50px;
+    display: flex;
 }
 
 .location-frame {
@@ -672,7 +665,6 @@ input:focus {
   
     .intro-container {
         width: 100%;
-        max-width: 100%;
         margin: 85px 18px 61px;
         text-align: center;
     }
@@ -689,8 +681,8 @@ input:focus {
   
     .button-mobile {
         width: 338px;
-        display: block;
         margin: 26px auto -26px;
+        display: block;
     }
   
     .button-intro {
@@ -804,9 +796,9 @@ input:focus {
     }
     
     .input-window {
-        color: #FFF;
         width: 340px;
         background-color: #131313;
+        color: #FFF;
         border-bottom: 1px solid #FFF;;
     }
     
@@ -820,9 +812,9 @@ input:focus {
     }
     
     .services {
-        background-color: #FFF;
         padding-top: 83px;
         padding-bottom: 30px;
+        background-color: #FFF;
     }
     
     .services-margin {
