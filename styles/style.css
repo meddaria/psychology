@@ -101,7 +101,7 @@ button {
     height: 710px;
     display: flex;
     align-items: center;
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../Images/volna.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../images/volna.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
