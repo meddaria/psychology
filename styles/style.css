@@ -166,10 +166,9 @@ button {
   
 .mobile-arrows {
     position: absolute;
+    left: 2.5%;
     width: 95%;
     margin: auto;
-    top: 47%;
-    left: 2.5%;
     display: flex;
     justify-content: space-between;
 }
@@ -371,26 +370,6 @@ label {
 
 .agree input[type=agree] {
 	display:none;
-}
-
-.agree label:after {
-    width: 18px;
-    height:18px;
-    background-color: rgb(163, 163, 230);
-	content: '';
-	display: block;
-    border-radius: 1px;
-	position: absolute;
-	top: 2px;
-	left: 0;
-}
-
-.agree input[type=agree]:checked + label:after {
-    content:'\2714';
-    line-height: 18px;
-    color: #FFF;
-    text-align: center;
-    align-content: center;
 }
 
 /*################# SERVICES #################*/
@@ -859,5 +838,44 @@ input:focus {
         font-size: 15px;
         line-height: 138.6%;
         
+    }
+
+    .tutorial-container {
+        max-width: 1235px;
+        padding-top: 60px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: 970px;
+    }
+
+    .tutorial-call {
+        width: 509px;
+        height: 800px;
+        padding-bottom: 27px;
+        margin: 0 auto;
+        background-color: #3f3f3f;
+    }
+      
+    .location-container {
+        max-width: 1170px;
+        margin: auto;
+        margin-bottom: 50px;
+        display: flex;
+    }
+    
+    .location-frame {
+        position: relative;
+        width: 100%;
+    }
+    
+    .font-white {
+        color: white;
+    }
+
+    .font-black {
+        color: black;
     }
 }
