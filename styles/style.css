@@ -690,7 +690,7 @@ input:focus {
     .button-left {
         width: 35px;
         height: 35px;
-        background-image: url(../Images/left.svg);
+        background-image: url(../images/left.svg);
         border: none;
         border-radius: 50%;
     }
@@ -698,7 +698,7 @@ input:focus {
     .button-right {
         width: 35px;
         height: 35px;
-        background-image: url(../Images/right.svg);
+        background-image: url(../images/right.svg);
         border:none;
         border-radius: 50%;
     }
