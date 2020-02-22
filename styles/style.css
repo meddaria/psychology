@@ -585,6 +585,16 @@ input:focus {
     color: black;
 }
 
+.checkbox input{
+    position: absolute;
+    margin: 10px 0 0 20px;
+}
+.checkbox__text {
+	position: relative;
+	padding: 5px 50px 0 40px;
+	cursor: pointer;
+}
+
 /*################# CONTACTS #################*/
 
 .contact {
@@ -851,13 +861,14 @@ input:focus {
         background-size: 970px;
     }
 
+    /*
     .tutorial-call {
         width: 509px;
         height: 800px;
         padding-bottom: 27px;
         margin: 0 auto;
         background-color: #3f3f3f;
-    }
+    }*/
       
     .location-container {
         max-width: 1170px;
