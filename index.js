@@ -1,44 +1,44 @@
 const image = document.getElementById('img');
-const btnLeft = document.getElementById('button_left');
-const btnRight = document.getElementById('button_right');
-const dot1 = document.getElementById('dot1');
-const dot2 = document.getElementById('dot2');
+const buttonL = document.getElementById('button_left');
+const buttonR = document.getElementById('button_right');
+const point1 = document.getElementById('point1');
+const point2 = document.getElementById('point2');
 
 let slideNumber = 1;
 
-function showFirst() {
+function showMsc() {
   image.src = 'images/image1.jpg';
-  dot1.classList.remove('arrows-dot-unactive')
-  dot1.classList.add('arrows-dot-active');
-  dot2.classList.remove('arrows-dot-active')
-  dot2.classList.add('arrows-dot-unactive');
+  point1.classList.remove('arrows-dot-unactive')
+  point1.classList.add('arrows-dot-active');
+  point2.classList.remove('arrows-dot-active')
+  point2.classList.add('arrows-dot-unactive');
   slideNumber = 1;
 }
 
-function showSecond() {
+function showSpb() {
   image.src = 'images/image2.jpg';
-  dot1.classList.remove('arrows-dot-active')
-  dot1.classList.add('arrows-dot-unactive');
-  dot2.classList.remove('arrows-dot-unactive')
-  dot2.classList.add('arrows-dot-active');
+  point1.classList.remove('arrows-dot-active')
+  point1.classList.add('arrows-dot-unactive');
+  point2.classList.remove('arrows-dot-unactive')
+  point2.classList.add('arrows-dot-active');
   slideNumber = 2;
 }
 
-function slideLeft() {
+function slideL() {
   if (slideNumber === 1) {
-    showSecond();
+    showSpb();
   } else {
-    showFirst();
+    showMsc();
   }
 }
 
-function slideRight() {
+function slideR() {
   if (slideNumber === 2) {
-    showFirst();
+    showMsc();
   } else {
-    showSecond();
+    showSpb();
   }
 }
 
-btnRight.addEventListener("click", slideRight);
-btnLeft.addEventListener("click", slideLeft);
+buttonR.addEventListener("click", slideR);
+buttonL.addEventListener("click", slideL);
