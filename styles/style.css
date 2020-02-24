@@ -363,18 +363,38 @@ label {
 .check {
     display: flex;
     justify-content: center;
-    margin-bottom: 147px;
-    color: #363636;
-}
-
-.agree {
-	position: relative;
-	padding-left: 25px;
-}
-
-.agree input[type=agree] {
-	display:none;
-}
+    margin-bottom: 50px;
+    color: white;
+  }
+  
+  .checkbox {
+      position:relative;
+      padding-left:25px;
+  }
+  
+  .checkbox input[type=checkbox] {
+      display:none;
+  }
+  
+  .checkbox label:after {
+    background-color: rgb(163, 163, 230);
+      content:'';
+      display:block;
+      height:18px;
+      width:18px;
+    border-radius: 1px;
+      position:absolute;
+      top:2px;
+      left:0;
+  }
+  
+  .checkbox input[type=checkbox]:checked + label:after {
+    content:'\2714';
+    line-height: 18px;
+    color: #FFF;
+    text-align: center;
+    align-content: center;
+  }
 
 /*################# SERVICES #################*/
 
@@ -550,14 +570,8 @@ input:focus {
     line-height: 21px;
     color: rgba(255, 255, 255, 0.5);
 }
-  
-.call-check {
-    margin-bottom: 40px;
-}
-  
-.call-agree {
-    color: #FFF;
-}
+
+
   
 .call-button {
     margin: 0 45px 25px 0;
@@ -587,17 +601,6 @@ input:focus {
     font-size: 18px;
     line-height: 25px;
     color: black;
-}
-
-.checkbox input{
-    position: absolute;
-    margin: 10px 0 0 20px;
-}
-.checkbox__text {
-	position: relative;
-	padding: 5px 50px 0 40px;
-    cursor: pointer;
-    color: white;
 }
 
 /*################# CONTACTS #################*/
