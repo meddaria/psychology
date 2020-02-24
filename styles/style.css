@@ -258,6 +258,25 @@ button {
     background-image: url(../images/dot.svg);
 }
 
+.navigation__link {
+    text-decoration: none;
+    margin-right: 5%;
+    font-family: 'Yeseva One', serif;
+    font-size: 14px;
+    line-height: 19px;
+      color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .navigation__link:hover {
+      color:rgb(163, 163, 230);
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(163, 163, 230);
+  }
+
+  .navigation {
+    margin-bottom: 45px;
+  }
+
 .img {
     width: 100%;
 }
