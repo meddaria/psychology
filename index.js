@@ -6,6 +6,8 @@ const buttonL1 = document.getElementById('button_left1');
 const buttonR1 = document.getElementById('button_right1');
 const point1 = document.getElementById('point1');
 const point2 = document.getElementById('point2');
+const msc = document.getElementById('first_link');
+const spb = document.getElementById('second_link');
 
 let slideNumber = 1;
 
@@ -16,6 +18,10 @@ function showMsc() {
   point1.classList.add('arrows-dot-active');
   point2.classList.remove('arrows-dot-active')
   point2.classList.add('arrows-dot-unactive');
+  spb.classList.remove('font-tmp');
+  spb.classList.add('font-nav');
+  msc.classList.remove('font-nav');
+  msc.classList.add('font-tmp');
   slideNumber = 1;
 }
 
@@ -26,6 +32,10 @@ function showSpb() {
   point1.classList.add('arrows-dot-unactive');
   point2.classList.remove('arrows-dot-unactive')
   point2.classList.add('arrows-dot-active');
+  msc.classList.remove('font-tmp');
+  msc.classList.add('font-nav');
+  spb.classList.remove('font-nav');
+  spb.classList.add('font-tmp');
   slideNumber = 2;
 }
 
